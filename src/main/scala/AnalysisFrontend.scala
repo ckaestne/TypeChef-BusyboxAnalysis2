@@ -2,7 +2,7 @@ package edu.cmu.typechef.busybox
 
 import java.io.File
 
-import edu.cmu.typechef.linux.Preparation._
+import edu.cmu.typechef.busybox.Preparation._
 
 import scala.sys.process._
 
