@@ -6,7 +6,7 @@ echo COMMIT: $2
 echo FILE: $3
 
 if [ ! -f run.sh ]; then
-  echo first execution; compiling tool infrastructure (requires Java and SBT)
+  echo first execution -- compiling tool infrastructure (requires Java and SBT)
   sbt mkrun
 fi
 
