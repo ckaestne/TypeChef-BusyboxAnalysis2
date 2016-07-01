@@ -24,3 +24,6 @@ The working directory will have the following structure:
 Compared to TypeChef-BusyboxAnalysis, the infrastructure is rewritten in Scala 
 to avoid the mess of various shell scripts. Various debug functionality
 has not been migrated yet.
+
+To build this you need to publish TypeChef-BusyboxAnalysis locally (`sbt publish-local`)
+first.
